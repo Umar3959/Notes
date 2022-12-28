@@ -12,6 +12,7 @@ import androidx.navigation.ui.NavigationUI;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.example.notesapp.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -33,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         //setupActionBarWithNavController(this, navController);
 
         NavigationUI.setupActionBarWithNavController(this,navController);
+
+        Toast.makeText(this, "This is second commit", Toast.LENGTH_SHORT).show();
 
 
 
